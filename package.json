@@ -1,0 +1,30 @@
+{
+  "name": "lubba",
+  "version": "0.0.1",
+  "description": "The Super Mario Galaxy Bot that actually works",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spviersechs/galaxyupvotes.git"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "Infi <galaxyupvotes-pkg-json@geist.ga> (https://geist.ga)",
+  "license": "BSL-1.0",
+  "bugs": {
+    "url": "https://github.com/spviersechs/galaxyupvotes/issues"
+  },
+  "homepage": "https://github.com/spviersechs/galaxyupvotes#readme",
+  "dependencies": {
+    "discord.js": "^12.1.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0",
+    "quick.db": "^7.0.0-b22"
+  }
+}

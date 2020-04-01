@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather&display=swap");
+
+[f-ss] {
+    font-family: "Cabin", sans-serif;
+}
+
+[f-s] {
+    font-family: "Merriweather", serif;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+* {
+    font-weight: normal;
+}
+
+.flex-middle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+}
+[flex-c] {
+    flex-direction: column;
+}
+[nm] {
+    margin: 0;
+}
+[np] {
+    padding: 0;
+}
+[bg] {
+    color: grey;
+}
+[ubg] {
+    color: rgb(189, 189, 189);
+}
